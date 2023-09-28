@@ -83,9 +83,11 @@ main {
 @keyframes slideUp {
     from {
         height: 100%;
+        font-size: 12px !important;
     }
     to {
         height: 0%;
+        font-size: 0px !important;
     }
 }
 

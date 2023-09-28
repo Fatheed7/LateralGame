@@ -238,3 +238,8 @@ function checkGuess() {
 $(window).on('load', function() {
     $('#exampleModal').modal('show');
 });
+
+function refreshWindow() {
+    confirm("Are you sure you want to start again?");
+    location.reload();
+}

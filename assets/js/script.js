@@ -240,6 +240,10 @@ $(window).on('load', function() {
 });
 
 function refreshWindow() {
-    confirm("Are you sure you want to start again?");
+    if (confirm("Are you sure you want to start again?") == true) 
+    {
     location.reload();
+    } else {
+        return false;
+    }
 }
